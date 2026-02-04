@@ -1,0 +1,30 @@
+## [Arquivos de Build e Binários]
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+## [Visual Studio e VS Code]
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+## [Pacotes de Dependências]
+# Equivalente ao node_modules do Node.js
+packages/
+# Se usar o Rider ou outras ferramentas
+.idea/
+
+## [Banco de Dados e Logs]
+*.log
+# Se estivesse usando SQLite (não é seu caso, mas é bom ter)
+*.db
+
+## [Configurações de Usuário]
+# Nunca suba o arquivo que contém segredos de produção
+appsettings.Development.json
+# No entanto, suba o appsettings.json original para servir de template
+# (A menos que ele tenha senhas reais, aí use secrets do .NET)
