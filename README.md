@@ -68,7 +68,7 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
    ---
 ### **2. Configuração do Frontend**
 
-1. En um outro terminal, navegue até a pasta do cliente:
+1. Em um outro terminal, navegue até a pasta do cliente:
    ```bash
    cd todo-web
    ```
