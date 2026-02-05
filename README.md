@@ -11,8 +11,6 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
 | ![Home Page](./screenshots/home.png) | ![Dashboard](./screenshots/dashboard.png) |
 | *Tela inicial de acesso* | *Gerenciamento de tarefas do usuário* |
 
-> **Dica:** Para as imagens aparecerem, crie uma pasta chamada `screenshots` na raiz do projeto e salve os prints com os nomes `home.png` e `dashboard.png`.
-
 ---
 
 ## 🛠 Tecnologias Utilizadas
