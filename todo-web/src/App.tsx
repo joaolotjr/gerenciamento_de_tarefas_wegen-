@@ -6,10 +6,6 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 
-// Vamos criar essas páginas no próximo passo
-// Por enquanto, usaremos placeholders simples
-const DashboardPlaceholder = () => <div>Dashboard de Tarefas (Em breve)</div>;
-
 // Componente para proteger rotas privadas
 const PrivateRoute = ({ children }: { children: JSX.Element }) => {
   const { authenticated, loading } = useContext(AuthContext);
