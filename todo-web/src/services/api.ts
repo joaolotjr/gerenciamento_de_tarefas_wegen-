@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
   // Verifique se a porta da sua API é 5055 ou outra
-  baseURL: 'http://localhost:5055/api',
+  baseURL: import.meta.env.VITE_API_URL,
 });
 
 // Interceptor para adicionar o token JWT em cada requisição

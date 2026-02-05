@@ -47,7 +47,7 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
 
 1. Acesse a pasta do servidor:
    ```bash
-   cd TodoApi
+   cd todo-api
    ```
 
 2. Abra o arquivo appsettings.json e configure a sua string de conexão com o PostgreSQL:
@@ -70,7 +70,7 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
    ---
 ### **2. Configuração do Frontend**
 
-1. Navegue até a pasta do cliente:
+1. En um outro terminal, navegue até a pasta do cliente:
    ```bash
    cd todo-web
    ```
@@ -90,7 +90,7 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
 ## 📝 Funcionalidades Implementadas
 
 * [x] **Autenticação:** Registro e Login de usuários com criptografia de senha (BCrypt).
- * [x] **Segurança:** Persistência de sessão com Token JWT enviado via Header Authorization nas requisições.
+* [x] **Segurança:** Persistência de sessão com Token JWT enviado via Header Authorization nas requisições.
 * [x] **CRUD Completo:** Criar, Listar, Editar e Excluir tarefas vinculadas exclusivamente ao usuário logado.
 * [x] **Filtros:** Filtragem dinâmica de tarefas por categoria.
 * [x] **UX/UI:** Interface moderna e responsiva construída com Material-UI, incluindo Modais para edição e alertas de feedback.
