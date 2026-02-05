@@ -8,7 +8,7 @@ Aplicação Full Stack desenvolvida para gerenciamento de tarefas (To-Do List) c
 
 | Home Page | Dashboard |
 | :---: | :---: |
-| ![Home Page](./screenshots/home.png) | ![Dashboard](./screenshots/dashboards.png) |
+| ![Home Page](./screenshots/home.png) | ![Dashboard](./screenshots/dashboard.png) |
 | *Tela inicial de acesso* | *Gerenciamento de tarefas do usuário* |
 
 ---
